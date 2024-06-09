@@ -184,6 +184,12 @@ const config = {
                         'aria-label': 'GitHub',
                     },
                     {
+                        href: 'https://patreon.com/altVMP',
+                        position: 'right',
+                        className: 'header-social-link patreon',
+                        'aria-label': 'Patreon',
+                    },
+                    {
                         href: 'https://discord.altv.mp',
                         position: 'right',
                         className: 'header-social-link discord',
