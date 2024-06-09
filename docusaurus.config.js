@@ -90,7 +90,7 @@ const config = {
         ({
             announcementBar: {
                 id: 'warning',
-                content: 'This website is still under development and is missing a lot of information. <a href="https://docs.altv.mp">Click here to access the latest docs.</a>'
+                content: 'This documentation is still under development, you may only find some information in the current documentation. <a href="https://docs.altv.mp">(Click to open)</a>'
             },
             metadata: [
                 {
