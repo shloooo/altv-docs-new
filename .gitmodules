@@ -13,24 +13,24 @@
 [submodule "js_versioned_docs/version-dev/repo"]
 	path = js_versioned_docs/version-dev/repo
 	url = ../altv-types
-	branch = master
+	branch = dev
 [submodule "js_versioned_docs/version-rc/repo"]
 	path = js_versioned_docs/version-rc/repo
 	url = ../altv-types
-	branch = master
+	branch = rc
 [submodule "js_versioned_docs/version-release/repo"]
 	path = js_versioned_docs/version-release/repo
 	url = ../altv-types
-	branch = master
+	branch = release
 [submodule "jsv2_versioned_docs/version-dev/repo"]
 	path = jsv2_versioned_docs/version-dev/repo
 	url = ../altv-types
-	branch = master
+	branch = dev
 [submodule "jsv2_versioned_docs/version-rc/repo"]
 	path = jsv2_versioned_docs/version-rc/repo
 	url = ../altv-types
-	branch = master
+	branch = rc
 [submodule "jsv2_versioned_docs/version-release/repo"]
 	path = jsv2_versioned_docs/version-release/repo
 	url = ../altv-types
-	branch = master
+	branch = release
