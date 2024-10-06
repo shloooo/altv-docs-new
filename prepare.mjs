@@ -40,13 +40,10 @@ async function main() {
     await sh("git submodule init");
 
     const files = {
-        "./versioned_docs/version-dev": "dev",
         "./versioned_docs/version-rc": "rc",
         "./versioned_docs/version-release": "release",
-        "./js_versioned_docs/version-dev/repo": "dev",
         "./js_versioned_docs/version-rc/repo": "rc",
         "./js_versioned_docs/version-release/repo": "master",
-        "./jsv2_versioned_docs/version-dev/repo": "dev",
         "./jsv2_versioned_docs/version-rc/repo": "rc",
         "./jsv2_versioned_docs/version-release/repo": "master",
     }

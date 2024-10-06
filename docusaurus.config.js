@@ -16,11 +16,6 @@ const versions = {
         label: 'Release Candidate',
         banner: 'none',
         badge: true
-    },
-    dev: {
-        label: 'Development',
-        banner: 'none',
-        badge: true
     }
 };
 
@@ -221,7 +216,7 @@ const config = {
                 rootDescriptionFile: path.join(__dirname, 'versioned_docs/version-$VER$/intro.md'),
                 changelogs: true,
                 readmes: true,
-                onlyIncludeVersions: ['rc', 'dev', 'release'],
+                onlyIncludeVersions: ['rc', 'release'],
                 packages: [
                     {
                         slug: 'shared',
@@ -255,7 +250,7 @@ const config = {
                 routeBasePath: 'api/jsv2',
                 rootEntryName: 'JS Module v2',
                 versions,
-                onlyIncludeVersions: ['rc', 'dev', 'release'],
+                onlyIncludeVersions: ['rc', 'release'],
                 packages: [
                     {
                         slug: 'shared',
