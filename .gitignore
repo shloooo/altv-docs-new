@@ -20,3 +20,7 @@ node_modules/
 /build/
 
 *_versioned_docs/**/api-typedoc.json
+
+# Firebase
+
+.firebase
